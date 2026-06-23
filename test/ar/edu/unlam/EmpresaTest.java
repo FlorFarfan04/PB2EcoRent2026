@@ -260,9 +260,9 @@ Vehiculo; id, marca,
 	
 	@Test
 	public void esteEsUnTestVacio() {
-	
+		String n = "Vacio";
 		
-		
+		assertEquals("Vacio", n);
 	}
 	
 	//este es un msj para ver si hacer hacer commit en una branch
